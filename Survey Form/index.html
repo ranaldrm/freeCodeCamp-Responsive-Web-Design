@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">The List</h1>
+    <p id="description">This form offers a fast and convenient way to register on "the list", the dread register of those who have earned my undying enmity for all eternity. </p>
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label" for="name">Name</label>
+            <input id="name" type="text" required placeholder="some nincompoop">
+            <label id="email-label" for="email">Email</label>
+            <input id="email" type="email" required placeholder=blahblah@dontcare.com>
+            <label id="number-label" for="number">The number of times you have annoyed me</label>
+            <input min="1" max="9" id="number" type="number" placeholder="5">
+        </fieldset>
+        <fieldset>
+            <label for="descriptor">Select here what particular species of verminous personage you belong to.</label>
+            <select id="dropdown">
+                <option>(Choose one)</option>
+                <option>Boastful blowhard</option>
+                <option>Creeping sycophant</option>
+                <option>Workshy good-for-nothing</option>
+                <option>Pompous ass</option>
+            </select>
+            <p>Have you thus far in your miserable life received your comeuppence in the form of a vigorous punch in the face?</p>
+            <label  class="puncher" for="yes">Yes</label><input value="whetherpunched" class="puncher" name="punch" type="radio">
+            <label  class="puncher" for="no">No</label><input value="whetherpunched" class="puncher" name="punch" type="radio">
+        </fieldset>
+        <fieldset>
+            <p>Select your preferred method(s) for plaguing the lives of decent folk.</p>
+            <label>Playing loud music late at night</label>
+            <input type="checkbox" value="music">
+            <label>Being an absolute ass</label>
+            <input type="checkbox" value="ass">
+            <label>Allowing your pestilential canine to crap in the street and not cleaning it up</label>
+            <input type="checkbox" value="crap">
+            <label>Being a teenager</label>
+            <input type="checkbox" value="teenager">
+            <label>Believing your opinions to be important</label>
+            <input type="checkbox" value="opinions">
+            <p>Against my better judgement, I have added a space for you to add any extra comments. However, do not presume that I will ever read your innane drivel.</p>
+            <textarea></textarea>
+            <input id="submit" type="submit" value="Submit" />
+        </fieldset>
+        
+    </form>
+</body>
+
+</html>
